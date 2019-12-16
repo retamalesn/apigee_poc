@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="books-example">
+    <Basepaths>/books-example</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1575925043335</CreatedAt>
+    <CreatedBy>ijoubert@prokarma.com</CreatedBy>
+    <Description>List of books</Description>
+    <DisplayName>books-example</DisplayName>
+    <LastModifiedAt>1575992517761</LastModifiedAt>
+    <LastModifiedBy>ijoubert@prokarma.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:ffd0e12e122473b19ac6622f220e1e1ff45ff4a97788eb9111332f25ab8ed3c0828d6d448f041e6f17c49a3eabea41442779c7f52aaf17b9f23c69d6ebb692d3</ManifestVersion>
+    <Policies>
+        <Policy>AM-addParameters</Policy>
+        <Policy>EV-getCriteriaAndValue</Policy>
+        <Policy>JS-printVariables</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://Script-1.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
