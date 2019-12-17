@@ -1,5 +1,5 @@
 # APIGEE POC
-## POCs based on the Apigee's fundamentals
+## POC#2 - Filter and transform response content 
 ### Manager:
 * Mariano Sola
 ### Members:

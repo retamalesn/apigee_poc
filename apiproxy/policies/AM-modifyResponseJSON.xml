@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-modifyResponseJSON">
+    <DisplayName>AM-modifyResponseJSON</DisplayName>
+    <Set>
+        <Payload contentType="application/json">
+            {
+            "totalItems":"{responseInfo.totalItemsVar}",
+            "kind":"{responseInfo.kindVar}",
+            "ItemInfo": [
+                {
+                "id0":"{responseInfo.id0}",
+                "etag0":"{responseInfo.etag0}",
+                "title0":"{responseInfo.title0}"
+                },{
+                "id1":"{responseInfo.id1}",
+                "etag1":"{responseInfo.etag1}",
+                "title1":"{responseInfo.title1}"
+                }
+                ]
+            }
+        </Payload>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="true" transport="http" type="request"/>
+</AssignMessage>

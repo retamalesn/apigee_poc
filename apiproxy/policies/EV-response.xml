@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="EV-response">
+    <DisplayName>EV-responseVariables</DisplayName>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <JSONPayload>
+        <Variable name="totalItemsVar">
+            <JSONPath>$.totalItems</JSONPath>
+        </Variable>
+        <Variable name="kindVar">
+            <JSONPath>$.kind</JSONPath>
+        </Variable>
+        <Variable name="id0">
+            <JSONPath>$.items[0].id</JSONPath>
+        </Variable>
+        <Variable name="etag0">
+            <JSONPath>$.items[0].etag</JSONPath>
+        </Variable>
+        <Variable name="title0">
+            <JSONPath>$.items[0].volumeInfo.title</JSONPath>
+        </Variable>
+        <Variable name="id1">
+            <JSONPath>$.items[1].id</JSONPath>
+        </Variable>
+        <Variable name="etag1">
+            <JSONPath>$.items[1].etag</JSONPath>
+        </Variable>
+        <Variable name="title1">
+            <JSONPath>$.items[1].volumeInfo.title</JSONPath>
+        </Variable>
+    </JSONPayload>
+    <Source clearPayload="false">response</Source>
+    <VariablePrefix>responseInfo</VariablePrefix>
+</ExtractVariables>
