@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="EV-QP">
+    <DisplayName>EV-QP</DisplayName>
+    <Source>request</Source>
+    <QueryParam name="filter">
+        <Pattern ignoreCase="true">{filter}</Pattern>
+    </QueryParam>
+    <VariablePrefix>paramrequest</VariablePrefix>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</ExtractVariables>

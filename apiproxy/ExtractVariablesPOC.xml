@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="ExtractVariablesPOC">
+    <Basepaths>/extractvariablespoc</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1576857035954</CreatedAt>
+    <CreatedBy>retamalesnico@gmail.com</CreatedBy>
+    <Description>Extract variables Policy proof of concept</Description>
+    <DisplayName>ExtractVariablesPOC</DisplayName>
+    <LastModifiedAt>1576870037594</LastModifiedAt>
+    <LastModifiedBy>retamalesnico@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:19ee0aff96c50949069a097e25cd7c9cbf1320337676558b3172fabbc7535c1c837192b2d1ca02099d4ddc0a508c4fbaecb4c4d73216c3c0717963de92c91b52</ManifestVersion>
+    <Policies>
+        <Policy>AM-HEADER</Policy>
+        <Policy>AM-JSON</Policy>
+        <Policy>AM-QP</Policy>
+        <Policy>AM-URI</Policy>
+        <Policy>AM-XML</Policy>
+        <Policy>EV-HEADER</Policy>
+        <Policy>EV-JSON</Policy>
+        <Policy>EV-QP</Policy>
+        <Policy>EV-URI</Policy>
+        <Policy>EV-XML</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

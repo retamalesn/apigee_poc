@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-JSON">
+    <DisplayName>AM-JSON</DisplayName>
+    <Set>
+        <Payload contentType="text/xml">
+            <latitud>{geocoderesponse.latitude}</latitud>
+            <longitude>{geocoderesponse.longitude}</longitude>
+            <location_type>{geocoderesponse.location_type}</location_type>
+        </Payload>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

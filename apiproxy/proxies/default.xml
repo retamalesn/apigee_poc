@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+    <Description/>
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request/>
+        <Response/>
+    </PreFlow>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <Flows>
+        <Flow name="extractvariableuri">
+            <Description/>
+            <Request>
+                <Step>
+                    <Name>EV-URI</Name>
+                </Step>
+                <Step>
+                    <Name>AM-URI</Name>
+                </Step>
+            </Request>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/extractvariableuri/*") and (request.verb = "GET")</Condition>
+        </Flow>
+        <Flow name="extractvariablequeryparam">
+            <Description/>
+            <Request>
+                <Step>
+                    <Name>EV-QP</Name>
+                </Step>
+                <Step>
+                    <Name>AM-QP</Name>
+                </Step>
+            </Request>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/extractvariablequeryparam*") and (request.verb = "GET")</Condition>
+        </Flow>
+        <Flow name="extractvariableheader">
+            <Description/>
+            <Request>
+                <Step>
+                    <Name>EV-HEADER</Name>
+                </Step>
+                <Step>
+                    <Name>AM-HEADER</Name>
+                </Step>
+            </Request>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/extractvariableheader") and (request.verb = "GET")</Condition>
+        </Flow>
+        <Flow name="extractvariableJSON">
+            <Description/>
+            <Request>
+                <Step>
+                    <Name>EV-JSON</Name>
+                </Step>
+                <Step>
+                    <Name>AM-JSON</Name>
+                </Step>
+            </Request>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/extractvariableJSON") and (request.verb = "GET")</Condition>
+        </Flow>
+        <Flow name="extractvariableXML">
+            <Description/>
+            <Request>
+                <Step>
+                    <Name>EV-XML</Name>
+                </Step>
+                <Step>
+                    <Name>AM-XML</Name>
+                </Step>
+            </Request>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/extractvariableXML") and (request.verb = "GET")</Condition>
+        </Flow>
+    </Flows>
+    <HTTPProxyConnection>
+        <BasePath>/extractvariablespoc</BasePath>
+        <Properties/>
+        <VirtualHost>default</VirtualHost>
+        <VirtualHost>secure</VirtualHost>
+    </HTTPProxyConnection>
+    <RouteRule name="default">
+        <TargetEndpoint>default</TargetEndpoint>
+    </RouteRule>
+</ProxyEndpoint>

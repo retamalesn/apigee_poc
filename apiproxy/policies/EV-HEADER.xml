@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="EV-HEADER">
+    <DisplayName>EV-HEADER</DisplayName>
+    <Source>request</Source>
+    <Header name="Authorization">
+        <Pattern ignoreCase="false">Bearer {oauthtoken}</Pattern>
+    </Header>
+    <VariablePrefix>requestheader</VariablePrefix>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</ExtractVariables>

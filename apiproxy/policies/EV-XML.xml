@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="EV-XML">
+    <DisplayName>EV-XML</DisplayName>
+    <Source>request</Source>
+    <XMLPayload>
+        <Namespaces>
+            <Namespace prefix="dir">urn:43BFF88D-D204-4427-B6BA-140AF393142F</Namespace>
+        </Namespaces>
+        <Variable name="travelmode" type="string">
+            <XPath>/dir:Directions/dir:route/dir:leg/dir:step/@mode</XPath>
+        </Variable>
+        <Variable name="duration" type="string">
+            <XPath>/dir:Directions/dir:route/dir:leg/dir:step/dir:duration/dir:value</XPath>
+        </Variable>
+        <Variable name="timeunit" type="string">
+            <XPath>/dir:Directions/dir:route/dir:leg/dir:step/dir:duration/dir:text</XPath>
+        </Variable>
+    </XMLPayload>
+    <VariablePrefix>directionsresponse</VariablePrefix>
+    <DisplayName>EV-XML</DisplayName>
+</ExtractVariables>
