@@ -28,6 +28,10 @@
     <Flows/>
     <HTTPTargetConnection>
         <Properties/>
-        <URL>https://www.googleapis.com/books/v1/volumes</URL>
+        <LoadBalancer>
+            <Server name="google-books"/>
+        </LoadBalancer>
+        <Path>/books/v1/volumes</Path>
+        <!--<URL>https://www.googleapis.com/books/v1/volumes</URL>-->
     </HTTPTargetConnection>
 </TargetEndpoint>

@@ -6,9 +6,9 @@
     <CreatedBy>ijoubert@prokarma.com</CreatedBy>
     <Description>List of books</Description>
     <DisplayName>books-example</DisplayName>
-    <LastModifiedAt>1576619716887</LastModifiedAt>
+    <LastModifiedAt>1576874396419</LastModifiedAt>
     <LastModifiedBy>ijoubert@prokarma.com</LastModifiedBy>
-    <ManifestVersion>SHA-512:8c78554ae2d545d07491c9ba7dee31dfb5846bf23f238df5339449ff1647a10844afe21551cb2e7c335f62c5514b37c45a05d5b97cc5da84693f5d93e8a24ce1</ManifestVersion>
+    <ManifestVersion>SHA-512:f62f1174ab7d090b5df49902babddbb5f164239ad7a7dc610a64d8252d40354d14af375d635424542a3b48779a205ecadf302eee5966b02214b10dd7932922d6</ManifestVersion>
     <Policies>
         <Policy>AM-addParameters</Policy>
         <Policy>AM-modifyResponseJSON</Policy>
