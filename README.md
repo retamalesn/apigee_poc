@@ -5,7 +5,8 @@ Filter from backend response some main fields and based on request query paramet
 If the request has following format:
 http://ijoubert-eval-test.apigee.net/books-example?criteria=id&value=cs-wvAEACAAJ&responseType=XML
 Expected response:
-``` <root>
+``` 
+	<root>
 		<totalItems>3</totalItems>
 		<kind>books#volumes</kind>
 		<itemInfo> 
@@ -42,6 +43,7 @@ Expected response:
 ```
 
 Note: this POC includes a Target Endpoint configuration to use below Target Server:
+
 |	Name	|	Host	|	Port	|	SSL	|	Enabled	|
 |	---		|	---		|	---	|	---	|	--- 			|
 |	google-books	|	www.googleapis.com	| 443	|	Yes	|	Yes |
