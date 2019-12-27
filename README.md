@@ -1,5 +1,5 @@
 # APIGEE POC
-## POCs based on the Apigee's fundamentals
+## POC#1 - Extract Variables and Assign Message policies.
 ### Manager:
 * Mariano Sola
 ### Members:
