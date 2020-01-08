@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-addParameters">
+    <DisplayName>AM-addParameters</DisplayName>
+    <Add>
+        <QueryParams>
+            <QueryParam name="q">"{queryinfo.criteriaValue}={queryinfo.actualValue}"</QueryParam>
+        </QueryParams>
+    </Add>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="true" transport="http" type="request"/>
+</AssignMessage>

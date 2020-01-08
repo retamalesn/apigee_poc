@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="books-example_rev1_2019_12_27">
+    <Basepaths>/books-example</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1577479039054</CreatedAt>
+    <CreatedBy>retamalesnico@gmail.com</CreatedBy>
+    <Description>List of books</Description>
+    <DisplayName>books-example</DisplayName>
+    <LastModifiedAt>1577480270574</LastModifiedAt>
+    <LastModifiedBy>retamalesnico@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:ef950d3a385e471258ba95edeba26a34defec82d10a46f5106ac22d429863980fda1b3bc1639d8ff9fc11e8af1645e523e94751b901968dd866c4c17c3885fc3</ManifestVersion>
+    <Policies>
+        <Policy>AM-addParameters</Policy>
+        <Policy>AM-modifyResponseJSON</Policy>
+        <Policy>AM-modifyResponseXML</Policy>
+        <Policy>EV-getCriteriaAndValue</Policy>
+        <Policy>EV-response</Policy>
+        <Policy>JS-printResponse</Policy>
+        <Policy>JS-printVariables</Policy>
+        <Policy>remove-query-param-apikey</Policy>
+        <Policy>verify-api-key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-2.js</Resource>
+        <Resource>jsc://Script-1.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

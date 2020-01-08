@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetEndpoint name="default">
+    <Description/>
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request/>
+        <Response/>
+    </PreFlow>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response>
+            <Step>
+                <Name>EV-response</Name>
+            </Step>
+            <Step>
+                <Name>JS-printResponse</Name>
+            </Step>
+            <Step>
+                <Name>AM-modifyResponseJSON</Name>
+                <Condition>queryinfo.responseType="JSON"</Condition>
+            </Step>
+            <Step>
+                <Name>AM-modifyResponseXML</Name>
+                <Condition>queryinfo.responseType="XML"</Condition>
+            </Step>
+        </Response>
+    </PostFlow>
+    <Flows/>
+    <HTTPTargetConnection>
+        <Properties/>
+        <LoadBalancer>
+            <Server name="google-books"/>
+        </LoadBalancer>
+        <Path>/books/v1/volumes</Path>
+        <!--<URL>https://www.googleapis.com/books/v1/volumes</URL>-->
+    </HTTPTargetConnection>
+</TargetEndpoint>
