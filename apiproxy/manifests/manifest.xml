@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest name="manifest">
     <Policies>
-        <VersionInfo resourceName="AM-addParameters" version="SHA-512:e35d17506db52c14e7da23911040f36c273ca97cefbfa37d1f9c6d60057266af61f78730a2cc62c1daf297d304823533eff7d784f1779f48f1af64167a7014ee"/>
-        <VersionInfo resourceName="AM-modifyResponseJSON" version="SHA-512:947d36c7894d82d018cb00bca3cc22fc6a390538d7927d469e0150d61431b83d26067a22b5422e066f19c6d9710ebaa07dfe51e74dfbf679b8614df1f769ee6c"/>
-        <VersionInfo resourceName="AM-modifyResponseXML" version="SHA-512:68d64aa4a60d40742a331595ea7f0d1fc47168e47f8bc1bc87f065a1eeec34049f1717d0d8d7cb35f695f3a1894c805c765e0223011e6fcbe175827aefcb6bc4"/>
-        <VersionInfo resourceName="EV-getCriteriaAndValue" version="SHA-512:f378be5c717ebbadb385e1ea6f354be8fcbda1d8566b297ce2aba530a07aa996d0f92a742a22e6969e9c681dddf28317e915a5b54ac37f7832bf45b3e4b88b50"/>
-        <VersionInfo resourceName="EV-response" version="SHA-512:b862a6d7b6dca442e0a36ef5fc47cf12475abedf69778ee032d449ac558a76765ee5e540f1d9d4a0345ae3081472064671abf247c37a36911bf0c2fe0f04f236"/>
-        <VersionInfo resourceName="JS-printResponse" version="SHA-512:21386b2ed62020ebe73c827cc42b3eb0dc0be9bdd6e7ee5f3b1eab392ee5562bcd4e6c887b486b6afa3dc17c54b3c7857cc0fa9b09471dd1ea847d6bcc2d5e1f"/>
-        <VersionInfo resourceName="JS-printVariables" version="SHA-512:6304319bd75c4106c13f76f4e92f94b4bf4d9297d9473f529766e31a9830be3145811007784da0798b66ed2d586dfd432354987a5f030465a7ea4fd496ac1f1e"/>
+        <VersionInfo resourceName="OAv2-generateAccessToken" version="SHA-512:b36fdbd3e751b0d3358d151df2a404df1c29e6329ed362a457e1f7ccd93ed589568353ef962bd4f148e489495a1f0e557a9eda528dde79c6669364620526ba48"/>
+        <VersionInfo resourceName="OAv2-generateToken_authCode" version="SHA-512:968900a06a9a30321f31442976c0bdaa5166162c3587223c07227c2d67059024ad9416dceefc9bfd44b022674fffba9f1f1723cf3f3a9f48544a12ebcc46813a"/>
     </Policies>
     <ProxyEndpoints>
-        <VersionInfo resourceName="default" version="SHA-512:ba02df0a9f872d95d6f12a58afba69dd42fd0ed21793ee586ea156277a4391ec333d78e27b0c3eabaa41a0d71c30443dec109fd752d3b0b24aa0ecec361e46c3"/>
+        <VersionInfo resourceName="default" version="SHA-512:05f1a4ff9fd0ccf0234baeefe2b47a6ae6e893df7fd89237339f47fd92d799e31bc14f9bc7abbb2c47257923d8f8d43d2d6425814833ad4d34ff363fa04d35c7"/>
     </ProxyEndpoints>
-    <Resources>
-        <VersionInfo resourceName="jsc://JavaScript-2.js" version="SHA-512:9545a8eb491de999fa98d53306f996fe26e95a7255ebe16f7af2b08b83a99422d240684608ba35cea8ce40c26f40aecee93ab4730636db5b8c186be63a85429d"/>
-        <VersionInfo resourceName="jsc://Script-1.js" version="SHA-512:d1940e9d2280bb5c829707a036c6f8fceccb71fae45535c71bf67ba6e4f4303faa6e5957a4c7c4e61a00808e8c748b5cf281d1409e97f85493120b1f4e7b3374"/>
-    </Resources>
+    <Resources/>
     <SharedFlows/>
-    <TargetEndpoints>
-        <VersionInfo resourceName="default" version="SHA-512:c1bee60c95b6445e4a6627c1d92551115da26fbdcb911960063488328abe412ece6ea89cbfba1913a4632337ac2440df7fe519dce7033abac212b56b06043af4"/>
-    </TargetEndpoints>
+    <TargetEndpoints/>
 </Manifest>

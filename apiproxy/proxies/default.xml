@@ -3,31 +3,40 @@
     <Description/>
     <FaultRules/>
     <PreFlow name="PreFlow">
-        <Request>
-            <Step>
-                <Name>EV-getCriteriaAndValue</Name>
-            </Step>
-            <Step>
-                <Name>JS-printVariables</Name>
-            </Step>
-            <Step>
-                <Name>AM-addParameters</Name>
-            </Step>
-        </Request>
+        <Request/>
         <Response/>
     </PreFlow>
     <PostFlow name="PostFlow">
         <Request/>
         <Response/>
     </PostFlow>
-    <Flows/>
+    <Flows>
+        <Flow name="GenerateToken_ClientCredentials">
+            <Description/>
+            <Request>
+                <Step>
+                    <Name>OAv2-generateAccessToken</Name>
+                </Step>
+            </Request>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/clientCredentials") and (request.verb = "POST")</Condition>
+        </Flow>
+        <Flow name="GenerateToken_AuthorizationCode">
+            <Description/>
+            <Request>
+                <Step>
+                    <Name>OAv2-generateToken_authCode</Name>
+                </Step>
+            </Request>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/authCode") and (request.verb = "POST")</Condition>
+        </Flow>
+    </Flows>
     <HTTPProxyConnection>
-        <BasePath>/books-example</BasePath>
+        <BasePath>/accesstoken</BasePath>
         <Properties/>
         <VirtualHost>default</VirtualHost>
         <VirtualHost>secure</VirtualHost>
     </HTTPProxyConnection>
-    <RouteRule name="default">
-        <TargetEndpoint>default</TargetEndpoint>
-    </RouteRule>
+    <RouteRule name="noroute"/>
 </ProxyEndpoint>
