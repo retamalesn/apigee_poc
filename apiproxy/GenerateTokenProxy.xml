@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="GenerateTokenProxy">
+    <Basepaths>/accesstoken</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1578332295905</CreatedAt>
+    <CreatedBy>ijoubert@prokarma.com</CreatedBy>
+    <Description>proxy used to generate an access token</Description>
+    <DisplayName>GenerateTokenProxy</DisplayName>
+    <LastModifiedAt>1578337868549</LastModifiedAt>
+    <LastModifiedBy>ijoubert@prokarma.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:8fa1dc0c78c98b359612090c16202a5ce55e4a5f5e4eb3c24581e6513299f6df2ee6a18bd546457e4ae77d2ae6c1408c2766761c32d59ed89b2456fcda0f3aa3</ManifestVersion>
+    <Policies>
+        <Policy>OAv2-generateAccessToken</Policy>
+        <Policy>OAv2-generateToken_authCode</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>
