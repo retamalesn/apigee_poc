@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ProxyEndpoint name="default">
-    <Description/>
-    <FaultRules/>
     <PreFlow name="PreFlow">
         <Request>
             <Step>
@@ -10,20 +8,23 @@
             <Step>
                 <Name>remove-header-authorization</Name>
             </Step>
+            <Step>
+                <Name>AM-createBackendRequest</Name>
+            </Step>
         </Request>
         <Response/>
     </PreFlow>
+    <Flows/>
     <PostFlow name="PostFlow">
         <Request/>
         <Response/>
     </PostFlow>
-    <Flows/>
     <HTTPProxyConnection>
-        <BasePath>/oauthtest</BasePath>
-        <Properties/>
-        <VirtualHost>default</VirtualHost>
+        <BasePath>/imdboauthproxy</BasePath>
         <VirtualHost>secure</VirtualHost>
+        <VirtualHost>default</VirtualHost>
     </HTTPProxyConnection>
-    <RouteRule name="noroute">
+    <RouteRule name="default">
+        <TargetEndpoint>default</TargetEndpoint>
     </RouteRule>
 </ProxyEndpoint>

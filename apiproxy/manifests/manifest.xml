@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest name="manifest">
     <Policies>
-        <VersionInfo resourceName="remove-header-authorization" version="SHA-512:bb51e553b4b66ee4313fbfc0eaa76f08f3db66f9bd05cce9a1dc6542bada0501291719372fb4468a0b7f85ecceaaf0f8a0a397560a14b05f32e87d95423befb7"/>
+        <VersionInfo resourceName="AM-createBackendRequest" version="SHA-512:2f979fd8fc7ffc31cbccbf85d973a17455743ecf012ddcb9100f50d1e3b04d9af6b6c1ad9eab6c987f01cee9523a64079a9127fa089068459c68e3f246762e8e"/>
+        <VersionInfo resourceName="remove-header-authorization" version="SHA-512:ba2c6bc017bd76f345bafa6705f44c0ca06b46476e01205eb0e8ab6ffc5c8139fee4f328554b5ec4b177eb3db7aebb0c16b928bcdd6d4af65f6da9417feb1aef"/>
         <VersionInfo resourceName="verify-oauth-v2-access-token" version="SHA-512:be186ad133f93aafcac3d31bcb907dc849e4d8d10dadc63132cec9986bb306f937d7e9786a40be6ba66e04f4239189c3197d9df3c0ccbb30d79b4bd70231894e"/>
     </Policies>
     <ProxyEndpoints>
-        <VersionInfo resourceName="default" version="SHA-512:6fb0a056cfac9a3d040c75aac3c6c81f6a1bc87520f9c66bde4ab0c6ec8438de4605549af658a8164bae4630e4521c4fddbc71f15ac322965c5071d159dc6898"/>
+        <VersionInfo resourceName="default" version="SHA-512:d0e04cc35329413c1f3013052e939359d55538f20bddfc4f41d44aaaf7bc89cecf9d1263463e2d3c669aef9e5408bb5f0779599b0ead031f11e67f735d7e9757"/>
     </ProxyEndpoints>
     <Resources/>
     <SharedFlows/>
-    <TargetEndpoints/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:d5243b5cbb695e9ef050a6d6446eebe4a8e7c76177d9747ba716791959a42d4ff1d653d5108afcaa3e584293b6a3b5b5f2ac5bfd48d9a6c9b337756a398ebeeb"/>
+    </TargetEndpoints>
 </Manifest>
