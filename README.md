@@ -1,14 +1,10 @@
 # APIGEE POC
-## POC#7 - OAuth Example - Validate access token and invoke backend
+## POC#6 - OAuth Example - Validate access token
 Validate an access token received in the request
 
 POSTMAN TEST
-- POST: https://ijoubert-eval-test.apigee.net/imdboauthproxy
+- POST: http://ijoubert-eval-test.apigee.net/oauthtest
 - Header: Authorization = Bearer <accessToken>
-
-- Target Endpoint: https://movie-database-imdb-alternative.p.rapidapi.com
-
-Note: In order to call IMDB api, an x-rapidapi-key is required
 
 
 ### Manager:
