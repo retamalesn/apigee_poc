@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-createBackendRequest">
+    <DisplayName>AM-createBackendRequest</DisplayName>
+    <Set>
+        <Headers>
+            <Header name="x-rapidapi-key">0062b88914mshaa62bf02748fd0fp14f0c6jsn0b29100a8670</Header>
+        </Headers>
+        <QueryParams>
+            <QueryParam name="s">Avengers Endgame</QueryParam>
+        </QueryParams>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="new" transport="http" type="request"/>
+</AssignMessage>
