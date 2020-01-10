@@ -1,11 +1,11 @@
 # APIGEE POC
-## POC#5 - OAuth Example - Create token based on client credentials
-Based on username and password received in the request as Basic Authentication, create access token and return in the response.
+## POC#6 - OAuth Example - Validate access token
+Validate an access token received in the request
 
 POSTMAN TEST
-- POST: http://ijoubert-eval-test.apigee.net/accesstoken/clientCredentials
-- Authorization Header: Basic Auth
-- Body: grant_type = client_credentials
+- POST: http://ijoubert-eval-test.apigee.net/oauthtest
+- Header: Authorization = Bearer <accessToken>
+
 
 ### Manager:
 * Mariano Sola

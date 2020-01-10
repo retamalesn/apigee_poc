@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest name="manifest">
     <Policies>
-        <VersionInfo resourceName="OAv2-generateAccessToken" version="SHA-512:b36fdbd3e751b0d3358d151df2a404df1c29e6329ed362a457e1f7ccd93ed589568353ef962bd4f148e489495a1f0e557a9eda528dde79c6669364620526ba48"/>
-        <VersionInfo resourceName="OAv2-generateToken_authCode" version="SHA-512:968900a06a9a30321f31442976c0bdaa5166162c3587223c07227c2d67059024ad9416dceefc9bfd44b022674fffba9f1f1723cf3f3a9f48544a12ebcc46813a"/>
+        <VersionInfo resourceName="remove-header-authorization" version="SHA-512:bb51e553b4b66ee4313fbfc0eaa76f08f3db66f9bd05cce9a1dc6542bada0501291719372fb4468a0b7f85ecceaaf0f8a0a397560a14b05f32e87d95423befb7"/>
+        <VersionInfo resourceName="verify-oauth-v2-access-token" version="SHA-512:be186ad133f93aafcac3d31bcb907dc849e4d8d10dadc63132cec9986bb306f937d7e9786a40be6ba66e04f4239189c3197d9df3c0ccbb30d79b4bd70231894e"/>
     </Policies>
     <ProxyEndpoints>
-        <VersionInfo resourceName="default" version="SHA-512:05f1a4ff9fd0ccf0234baeefe2b47a6ae6e893df7fd89237339f47fd92d799e31bc14f9bc7abbb2c47257923d8f8d43d2d6425814833ad4d34ff363fa04d35c7"/>
+        <VersionInfo resourceName="default" version="SHA-512:6fb0a056cfac9a3d040c75aac3c6c81f6a1bc87520f9c66bde4ab0c6ec8438de4605549af658a8164bae4630e4521c4fddbc71f15ac322965c5071d159dc6898"/>
     </ProxyEndpoints>
     <Resources/>
     <SharedFlows/>
