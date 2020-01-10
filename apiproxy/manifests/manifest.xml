@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-createBackendRequest" version="SHA-512:2f979fd8fc7ffc31cbccbf85d973a17455743ecf012ddcb9100f50d1e3b04d9af6b6c1ad9eab6c987f01cee9523a64079a9127fa089068459c68e3f246762e8e"/>
+        <VersionInfo resourceName="remove-query-param-apikey" version="SHA-512:0bc31d6873e8406a94869379d942c8190ee602e78abedd1397029d6867141fa317b0102fa22fbdb4527238e96b843639812989be26d7b643b2983ad93b7eb08e"/>
+        <VersionInfo resourceName="verify-api-key" version="SHA-512:6595defb9a0b6d7fce111a9fe959f5e8a7aa03ffb301373c4c4e20e814648b42d5858631e95e4a8d698b5fe2139390c252e9011d9f1be8c3a35de73c1c269f97"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:a8f52bb996862027ca66af4e2bf22b47ad43f4233900900d80d88bec37db9e50f743b8c09728602236dc1c16f51783e7278d89fc75312abc1f1434626502bc90"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:0f46deca02a9191becee00d5d4bf303987c8cc065319413ba0fb3fed5d23342162532e6a3f14c779d9b399fcdbc6f361fdeb14b7c4a01e1bf4f0421d37cbb608"/>
+    </TargetEndpoints>
+</Manifest>
