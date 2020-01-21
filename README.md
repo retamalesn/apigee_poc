@@ -1,5 +1,14 @@
 # APIGEE POC
-## POCs based on the Apigee's fundamentals
+## POC#11 - Cache - Lookup cache data
+
+Proxy that retrieves data from cache, get items based on request param and return error message if not found.
+
+No target endpoint required.
+
+POSTMAN TEST
+
+GET: https://ijoubert-eval-test.apigee.net/getvaluesbykey/456789
+
 ### Manager:
 * Mariano Sola
 ### Members:
