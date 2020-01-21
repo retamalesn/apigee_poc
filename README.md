@@ -1,5 +1,5 @@
 # APIGEE POC
-## POC#10 - Cache - Populate cache #10
+## POC#10 - Cache - Populate cache
 
 Proxy that will populate a cache (24hr of expiration).
 This proxy implements PopulateCache policy and consume jsonKeys proxy (branch-#9)
