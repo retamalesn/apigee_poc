@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-mockResponse" version="SHA-512:b0f87190d0b7b9d82b6c5f5ba2cf1215183b93f19f02af59ab6f4f097f6ab1b4dd8ff8be6421e39093d95d7a8c7b7e6bfe98b1d24cd4d29af7b1c5a677d31684"/>
+        <VersionInfo resourceName="JavaScript-1" version="SHA-512:5cf0ea15f602024aa350a8b98704ed506054493363f785aaf99b585236be8038d6382fcd6e43c6b93b4f9f475a8663359305396a9f248d2c49e1a71aa7d90ac1"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:38697f1fdbc2941d96d16982d35fa351b4236dc5d0a34c95a48ee9387a4a62d11e1e3f48654ea3aa8458defd485e83d0616c94539bd8edbd7128fc178e1dc581"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://JavaScript-1.js" version="SHA-512:f90ddd77e400dfe6a3fcf479b00b1ee29e7015c5bb8cd70f5f15b4886cc339275ff553fc8a053f8ddc7324f45168cffaf81f8c3ac93996f6536eef38e5e40768"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>

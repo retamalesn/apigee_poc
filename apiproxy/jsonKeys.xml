@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="jsonKeys">
+    <Basepaths>/jsonkeys</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1579100456890</CreatedAt>
+    <CreatedBy>ijoubert@prokarma.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>jsonKeys</DisplayName>
+    <LastModifiedAt>1579293859016</LastModifiedAt>
+    <LastModifiedBy>ijoubert@prokarma.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:5ecfe636106e80f1aeb0c20999c37e4119bf398d635691e9bbb626b9c477d42fad1f826561f03fe1290d861d740607b3af65828673cdfe7f5f87f1f3d9852792</ManifestVersion>
+    <Policies>
+        <Policy>AM-mockResponse</Policy>
+        <Policy>JavaScript-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-1.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>
