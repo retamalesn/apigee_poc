@@ -2,6 +2,7 @@
 ## POC#11 - Cache - Lookup cache data
 
 Proxy that retrieves data from cache, get items based on request param and return error message if not found.
+This proxy implements LookupCache policy.
 
 No target endpoint required.
 
