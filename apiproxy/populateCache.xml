@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="populateCache">
+    <Basepaths>/populatecache</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1579101752930</CreatedAt>
+    <CreatedBy>ijoubert@prokarma.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>populateCache</DisplayName>
+    <LastModifiedAt>1579104439336</LastModifiedAt>
+    <LastModifiedBy>ijoubert@prokarma.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:5f3818c17cb466f1b16ebd4ffc0874563955ad6c50e46c7679b6462138e501fee87170ced296051e337e4aaa834002c4cf3d378b8d0e52d597bad2894c7fb4dc</ManifestVersion>
+    <Policies>
+        <Policy>Populate-Cache-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

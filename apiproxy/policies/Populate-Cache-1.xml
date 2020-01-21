@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PopulateCache async="false" continueOnError="false" enabled="true" name="Populate-Cache-1">
+    <DisplayName>Populate Cache-1</DisplayName>
+    <Properties/>
+    <CacheKey>
+        <Prefix>jsonKeys</Prefix>
+        <KeyFragment>response</KeyFragment>
+    </CacheKey>
+    <Scope>Global</Scope>
+    <ExpirySettings>
+        <TimeoutInSec>86400</TimeoutInSec>
+        <!--24hrs-->
+    </ExpirySettings>
+    <Source>response.content</Source>
+</PopulateCache>
