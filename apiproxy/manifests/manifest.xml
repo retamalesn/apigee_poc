@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="ACL" version="SHA-512:77aa284d5ac6366f9c280b98ef1959cfd2da029a4c1c70e636f93b48f7f11cccd86103f5fec36bae9a562ad5d73aaac7f0de44f4a7434ea344560ffde182fbcd"/>
+        <VersionInfo resourceName="KVMO-getRates" version="SHA-512:a582a5c5f62ee335a1108b3aa9905c8f4e126d9cdccb40a3ba8cd1066686dbba04fefd721314c74a4ec829177772bb65f0783a67e986a13216906560773da13f"/>
+        <VersionInfo resourceName="KVMO-getvalue" version="SHA-512:ced63ca06ec0cc99eb46889883a87ae8e72758d26bffa527d737c1fa9c76f72c766a3c41d2fa646ca98a759a2f4b4b3c5c2fc485805fa357c786d17c912a1e0c"/>
+        <VersionInfo resourceName="SA-request" version="SHA-512:fac015f0508779849498f80c1e577b05ec441b67f736bdfc8d1e55cfb931f97d628d0ec64838d0d19626402be0842ad5526fdd24ee4f053574884f952181b787"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:280033fed26eaaf2ee22790abaf8779936efb620d4245875db30498768712cfc1e6a18c1baf6187fbbb496078a4f910808e48c8fe9621b55f2d11f25fb35c88f"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:b72e8085914b9010f0b5ed9d135bda40c73108840bc188a94869a7d6751749435c6d81aec92a0b1ccb50be13acf9c7cd2a4f8484076523d552e3fdf444046069"/>
+    </TargetEndpoints>
+</Manifest>

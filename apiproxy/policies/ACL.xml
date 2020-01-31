@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AccessControl name="ACL">
+    <IPRules noRuleMatchAction="ALLOW">
+        <MatchRule action="DENY">
+            <SourceAddress mask="{private.mask}">{private.blacklistip}</SourceAddress>
+        </MatchRule>
+    </IPRules>
+</AccessControl>

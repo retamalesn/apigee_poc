@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="KVMO-getRates" mapIdentifier="access-control">
+    <DisplayName>KVMO-getRates</DisplayName>
+    <Properties/>
+    <ExclusiveCache>false</ExclusiveCache>
+    <ExpiryTimeInSecs>1</ExpiryTimeInSecs>
+    <Get assignTo="rate">
+        <Key>
+            <Parameter>kvm.rate.value</Parameter>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>

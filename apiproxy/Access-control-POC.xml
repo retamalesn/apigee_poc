@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="4" name="Access-control-POC">
+    <Basepaths>/v1/access-control-poc</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1579548625093</CreatedAt>
+    <CreatedBy>retamalesnico@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>Access-control-POC</DisplayName>
+    <LastModifiedAt>1580503483891</LastModifiedAt>
+    <LastModifiedBy>retamalesnico@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:598e8722447637e9495974bf22f9a2dad7e14eba7383e96d4abae35a3edc107cb7d8e731ca4b2ec3b72c7295d40c8d8a5985b45a309e0eea5de3d4f599a8c203</ManifestVersion>
+    <Policies>
+        <Policy>ACL</Policy>
+        <Policy>KVMO-getRates</Policy>
+        <Policy>KVMO-getvalue</Policy>
+        <Policy>SA-request</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

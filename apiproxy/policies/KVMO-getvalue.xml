@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="true" enabled="true" name="KVMO-getvalue" mapIdentifier="ipcontrol2">
+    <DisplayName>KVMO-getvalue</DisplayName>
+    <Properties/>
+    <ExclusiveCache>false</ExclusiveCache>
+    <ExpiryTimeInSecs>300</ExpiryTimeInSecs>
+    <Get assignTo="private.mask">
+        <Key>
+            <Parameter>kvm.mask.value</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="private.blacklistip">
+        <Key>
+            <Parameter>kvm.ip.value</Parameter>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>
