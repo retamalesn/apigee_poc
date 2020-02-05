@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="EV-getTitleFromRequest">
+    <DisplayName>EV-getTitleFromRequest</DisplayName>
+    <QueryParam name="title">
+        <Pattern ignoreCase="true">{titleValue}</Pattern>
+    </QueryParam>
+    <Source clearPayload="false">request</Source>
+    <VariablePrefix>queryinfo</VariablePrefix>
+    <AssignTo createNew="false" transport="http" type="request"/>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</ExtractVariables>

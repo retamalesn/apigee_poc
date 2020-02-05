@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LookupCache async="false" continueOnError="false" enabled="true" name="LC-findMovieCache">
+    <DisplayName>LC-findMovieCache</DisplayName>
+    <Properties/>
+    <CacheKey>
+        <Prefix>populatePrefix</Prefix>
+        <KeyFragment ref="queryinfo.titleValue"/>
+    </CacheKey>
+    <CacheResource>MoviesCache</CacheResource>
+    <Scope>Global</Scope>
+    <AssignTo>local.jsonMoviesKeysValues</AssignTo>
+</LookupCache>

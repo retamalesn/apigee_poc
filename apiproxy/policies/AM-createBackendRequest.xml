@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-createBackendRequest">
+    <DisplayName>AM-createBackendRequest</DisplayName>
+    <Set>
+        <Headers>
+            <Header name="x-rapidapi-key">{imdbKVMApiKeyValue}</Header>
+        </Headers>
+        <QueryParams>
+            <QueryParam name="s">{queryinfo.titleValue}</QueryParam>
+        </QueryParams>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="new" transport="http" type="request"/>
+</AssignMessage>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="KVM-getApiKey" mapIdentifier="imdbApiKey">
+    <DisplayName>KVM-getApiKey</DisplayName>
+    <Properties/>
+    <Get assignTo="imdbKVMApiKeyValue">
+        <Key>
+            <Parameter>apikey2</Parameter>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>

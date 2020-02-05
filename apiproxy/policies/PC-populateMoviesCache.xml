@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PopulateCache async="false" continueOnError="false" enabled="true" name="PC-populateMoviesCache">
+    <DisplayName>PC-populateMoviesCache</DisplayName>
+    <Properties/>
+    <CacheKey>
+        <Prefix>populatePrefix</Prefix>
+        <KeyFragment ref="queryinfo.titleValue"/>
+    </CacheKey>
+    <CacheResource>MoviesCache</CacheResource>
+    <Scope>Global</Scope>
+    <ExpirySettings>
+        <TimeoutInSec>86400</TimeoutInSec>
+        <!--24hrs-->
+    </ExpirySettings>
+    <Source>response.content</Source>
+</PopulateCache>

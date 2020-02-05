@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResponseCache async="false" continueOnError="false" enabled="true" name="RC-responseMoviesCache">
+    <DisplayName>RC-responseMoviesCache</DisplayName>
+    <Properties/>
+    <CacheKey>
+        <Prefix>moviesCachePrefix</Prefix>
+        <KeyFragment ref="queryinfo.titleValue"/>
+    </CacheKey>
+    <Scope>Global</Scope>
+    <ExpirySettings>
+        <TimeoutInSec>10</TimeoutInSec>
+    </ExpirySettings>
+    <Source>response.content</Source>
+    <CacheResource>MoviesCache</CacheResource>
+</ResponseCache>

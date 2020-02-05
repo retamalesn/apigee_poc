@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-createResponse">
+    <DisplayName>AM-createResponse</DisplayName>
+    <Set>
+        <Payload contentType="application/json">
+            {
+            "Title":"{responseInfo.Title}",
+            "Year":"{responseInfo.Year}",
+            "imdbID":"{responseInfo.imdbID}",
+            "Type":"{responseInfo.Type}",
+            "Poster":"{responseInfo.Poster}"
+            }
+        </Payload>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</AssignMessage>

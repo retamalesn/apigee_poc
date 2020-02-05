@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="imdbMoviesCache">
+    <Basepaths>/imdbmoviescache</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1580758645854</CreatedAt>
+    <CreatedBy>ijoubert@prokarma.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>imdbMoviesCache</DisplayName>
+    <LastModifiedAt>1580853603243</LastModifiedAt>
+    <LastModifiedBy>ijoubert@prokarma.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:b8e3ea2d02c53e191252f9f2ee95415703a027aa3a185fe7da9baad0057d63c7e1960d4275ac06b86623ee000e8aa49ac0580f661ebd02f6f924ac22d42d8934</ManifestVersion>
+    <Policies>
+        <Policy>AM-createBackendRequest</Policy>
+        <Policy>AM-createResponse</Policy>
+        <Policy>EV-getTitleFromRequest</Policy>
+        <Policy>JS-initialValues</Policy>
+        <Policy>JS-printMovieFromCache</Policy>
+        <Policy>JS-printVariables</Policy>
+        <Policy>JS-validateCache</Policy>
+        <Policy>KVM-getApiKey</Policy>
+        <Policy>LC-findMovieCache</Policy>
+        <Policy>PC-populateMoviesCache</Policy>
+        <Policy>RC-responseMoviesCache</Policy>
+        <Policy>remove-header-authorization</Policy>
+        <Policy>verify-oauth-v2-access-token</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JS-initialValues.js</Resource>
+        <Resource>jsc://JS-printMovieFromCache.js</Resource>
+        <Resource>jsc://JS-validateCache.js</Resource>
+        <Resource>jsc://JavaScript-1.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

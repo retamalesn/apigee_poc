@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-createBackendRequest" version="SHA-512:371249bc6394792c53d20c4e877735ecef86d18f28f82df879a28eca9d3362bf0fbdcc5fc34611522e375d9c5332bc4bb9b116b570b9348e3a3b2225d1a46ebf"/>
+        <VersionInfo resourceName="AM-createResponse" version="SHA-512:c7c9a53e08ee3a110f317db625d8ea032db6f7bde35d1ac3f190671fb2632d214f4f1798b5030def6a9fc61b68bd274526ce5a1f06d41b46cb82af1881047ae3"/>
+        <VersionInfo resourceName="EV-getTitleFromRequest" version="SHA-512:fb204c4f92d9c6b7b6cf34edd5584e71e96abf63c74702857d2a5d708786e7ed4db1ddee6eb994a4e4c860ebb771d3c741741f1fd5db4c2f71ae443a64f51c99"/>
+        <VersionInfo resourceName="JS-initialValues" version="SHA-512:912855cf7abf6b094bafb109773b904887e0f17efdf28424f57dbc48bee09daa4a9984027a2fb0a6c0ae972e5ef7726b93d824d801310929c5f7d95110c94390"/>
+        <VersionInfo resourceName="JS-printMovieFromCache" version="SHA-512:1d5f94555e2b4a1b3201fece1b638f80c9910c3f4f24e013e8c18bb28a94e1a10ae7615e89bee88613f8f5c8636ddcb50a353a02123d4c3e0d86837808c32231"/>
+        <VersionInfo resourceName="JS-printVariables" version="SHA-512:b406eba40545198c575d1000871746e97a104e1ed51a932fda908bb3e7aafc4a548986832c81ba08b559220b2e990fd71914736a98742d3b803419287cb6751b"/>
+        <VersionInfo resourceName="JS-validateCache" version="SHA-512:c128dd36b63ce6ba591369e80c2742c332f4d44325867186d71cb68554aa7278637cb6aa25324de6340fe47abb5cc9c91d8c76b3a2364470d9699ac2577d1c93"/>
+        <VersionInfo resourceName="KVM-getApiKey" version="SHA-512:2813e0f015a35d25a2bd46807dc20c5deb00d2a09ed04e3f767bcf3b729b5a8a0dc3cf59b9185a3a6a3de2a37f205c9eaaa80c8b7b4689d8875f62f71aea8dcb"/>
+        <VersionInfo resourceName="LC-findMovieCache" version="SHA-512:fe51fa48c68ddbd0f65afe7280013e2f66792c9c7b28926aa9c2589c211a056b2c03a47beac27420d1bb3eb41799f0347f38b5cac4c0809d993a10b3c52a2f47"/>
+        <VersionInfo resourceName="PC-populateMoviesCache" version="SHA-512:12349f15884869f566103ae6393af1cc40f05c6209e4d039b5bc8d4d6fb969699de118a5674cf4bb4632e655af6747e9a6525b794501fa35532cd6f0664ac7ec"/>
+        <VersionInfo resourceName="RC-responseMoviesCache" version="SHA-512:1d36f14780bc77bd3766974c65487243c63309331bd48fe4b8103f6e99c6b1597a93fe38bcdf3f97fed33198a2ea31a27cd80fa50502f0673ff5978005ae7892"/>
+        <VersionInfo resourceName="remove-header-authorization" version="SHA-512:ba2c6bc017bd76f345bafa6705f44c0ca06b46476e01205eb0e8ab6ffc5c8139fee4f328554b5ec4b177eb3db7aebb0c16b928bcdd6d4af65f6da9417feb1aef"/>
+        <VersionInfo resourceName="verify-oauth-v2-access-token" version="SHA-512:be186ad133f93aafcac3d31bcb907dc849e4d8d10dadc63132cec9986bb306f937d7e9786a40be6ba66e04f4239189c3197d9df3c0ccbb30d79b4bd70231894e"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:7686bd55fb4cecddcfdbbf32fced49b6c879d89a2bfe73e9aa33f93a06f58ef8724fc64826ed8d2fc392a9e5984a2f5af5b04874e8196c028f23ad3272fb55ac"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://JS-initialValues.js" version="SHA-512:2998c4b59f22121a2b9a87a57f397cc2687df8b917ae1a0bcac9da8add5b125dd1c4a9af4710e50155db6e5f832a15b1abb456c9886724f7f105f9b575641fff"/>
+        <VersionInfo resourceName="jsc://JS-printMovieFromCache.js" version="SHA-512:0a015940bb66ba2532405a4abdeacbc43bac469c459daa6c04cb200a39136c2ef1bdeaf570d5f38c16c01b561c2bf155be42dd514a72752824e32944fef1c32f"/>
+        <VersionInfo resourceName="jsc://JS-validateCache.js" version="SHA-512:6da33bd4ab3c25bf89f9eca95eb8eae90219f479685f094a7e81b62f5687f81a3047af518d84c0daf2d5c7314caf1c236d51c29e66acd585ac4c583394ca0370"/>
+        <VersionInfo resourceName="jsc://JavaScript-1.js" version="SHA-512:4cbdd28c8d9ed64e638bce6e842bf110d74d0fd5c96a7e078f8266b016423960081824dd89e9d8055137df570f9547b8d1a2c3ea5e64d1ccb8eb9b476455afa3"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:374eb304101f89faefe09043a1be99dfeff29e22b5ba6b6b7a21d0cf47c3d09bd2dbcb3fc2786ff4dbd2e4ed522e38a122260d7cf80a059d5d196edecb141fb8"/>
+    </TargetEndpoints>
+</Manifest>
