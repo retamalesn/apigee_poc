@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetEndpoint name="default">
+    <HTTPTargetConnection>
+        <!-- This is where we define the target. For this sample we just use a simple URL. -->
+        <URL>https://maps.googleapis.com/maps/api/elevation/xml</URL>
+    </HTTPTargetConnection>
+</TargetEndpoint>

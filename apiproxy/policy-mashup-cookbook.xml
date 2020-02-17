@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="policy-mashup-cookbook">
+    <Basepaths>/policy-mashup-cookbook</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1581106561204</CreatedAt>
+    <CreatedBy>retamalesnico@gmail.com</CreatedBy>
+    <Description>A sample API proxy that does a basic mash-up using policy composition</Description>
+    <DisplayName>policy-mashup-cookbook</DisplayName>
+    <LastModifiedAt>1581962254951</LastModifiedAt>
+    <LastModifiedBy>retamalesnico@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:a913a57b328cc5f85f056fa5a7355401c1f107121eb98e59a172cd0b6491b606b27bd43616be461d95307c5d5d3429eb25ee6d15deae1da739624e24571d19bb</ManifestVersion>
+    <Policies>
+        <Policy>AssignElevationParameters</Policy>
+        <Policy>ExecuteGeocodingRequest</Policy>
+        <Policy>GenerateGeocodingRequest</Policy>
+        <Policy>GenerateResponse</Policy>
+        <Policy>ParseElevationResponse</Policy>
+        <Policy>ParseGeocodingResponse</Policy>
+        <Policy>xmltojson</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://GenerateResponse.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AssignElevationParameters" version="SHA-512:f7b7f95e840608726206bd15aa5a88fd50786b5a377570fb372da72791c7245c3b76669b838d3215bed08e95bcc58e6ccd4b52a1361e095a6cf9937f3fd0011a"/>
+        <VersionInfo resourceName="ExecuteGeocodingRequest" version="SHA-512:e43489d3fc0d2ff43d240b11ef0f9cab5683fb3a397a91964dd964aa40de9e0b56b1c358f08f3d786ae0b008974e2946c938027f696245dfbed4b01c22350088"/>
+        <VersionInfo resourceName="GenerateGeocodingRequest" version="SHA-512:cc2a9b6cf024b1a3ee6e4aec3f00ba9f30419aef9bbc6d2c74c0cf159f8a9d73753550ecec3d1040ff30d16d71c23b0176bb6e0187113f622879830e4fcb262b"/>
+        <VersionInfo resourceName="GenerateResponse" version="SHA-512:ddd16fa4e31c6e0ad1601628b23a1093f51d299c179915644f8aa302535dad7ac53f99abee24fd7a8246b66fcf931f2309a51c669e1e65b97dcc7fadf9f1f266"/>
+        <VersionInfo resourceName="ParseElevationResponse" version="SHA-512:be03f0a15f84514e6bf28f526319ed78b976d9c4382d512f8f5497ee2f519c4199701f567601db832a3e3d52851ed30fdb94555becf5a753ce5ad60e175b75c9"/>
+        <VersionInfo resourceName="ParseGeocodingResponse" version="SHA-512:5e471648df9bb5c1e6c76d373dd2b346a62b272ee8b6f2ef535d98d06ceb06c3b54ad9a12556f2ef5fed5554a4bcab9dac499a936b36437773c890c5b6e56110"/>
+        <VersionInfo resourceName="xmltojson" version="SHA-512:fc7460ae0fd22bf29f486d7af0db39e0e2696b67bd9b1243ab5d2bf3d4b7bcd38a5face654a52a8ec46e10daa79d936bf5b2bc3eb52cd651212e48932ca82328"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:ab0d11e37318beba03885a00cb80b3f6712b81d671f5fba5bd4a9994cd839e9fbb7521ee6315efeb9ea4dad69e8e16e507621f918c86299bc758b9d646d1257f"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://GenerateResponse.js" version="SHA-512:62e886750ba5cf93ffff93e1383e3be4de4fd62dc08d1beaa2442c74ce02ccb3931739b1d2e3c70e4be064be4629e521112d91cff5a79169d6b69a4013b92891"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:184cfd6ee5124a22bd240d294a0457684a36ab6d27afc322feb29a22c52212e581968bd5a8627ba308a8a091429036ca738403ce950acdc86717f84e2765468a"/>
+    </TargetEndpoints>
+</Manifest>
