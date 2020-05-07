@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+    <PreFlow name="PreFlow">
+        <Request/>
+        <Response/>
+    </PreFlow>
+    <Flows>
+        <Flow name="testMock">
+            <Description/>
+            <Request>
+                <Step>
+                    <Name>JavaScript-4</Name>
+                </Step>
+                <Step>
+                    <Name>JavaScript-3</Name>
+                </Step>
+                <Step>
+                    <Name>JavaScript-2</Name>
+                </Step>
+            </Request>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/mock") and (request.verb = "GET")</Condition>
+        </Flow>
+        <Flow name="testAsync">
+            <Description/>
+            <Request>
+                <Step>
+                    <Name>JavaScript-1</Name>
+                </Step>
+                <Step>
+                    <Name>JavaScript-3</Name>
+                </Step>
+                <Step>
+                    <Name>JavaScript-2</Name>
+                </Step>
+            </Request>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/async") and (request.verb = "GET")</Condition>
+        </Flow>
+        <Flow name="testCombinedFlow">
+            <Description/>
+            <Request>
+                <Step>
+                    <Name>JS-combinedFlow</Name>
+                </Step>
+            </Request>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/combined") and (request.verb = "GET")</Condition>
+        </Flow>
+    </Flows>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <HTTPProxyConnection>
+        <BasePath>/asyncproxy</BasePath>
+        <VirtualHost>secure</VirtualHost>
+    </HTTPProxyConnection>
+    <RouteRule name="noroute"/>
+</ProxyEndpoint>

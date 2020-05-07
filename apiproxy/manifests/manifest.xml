@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="JS-combinedFlow" version="SHA-512:2055db1ac94aa03eb9554787c7d2ccdcc839b515a7f2c8f5d11ee0a354bc341ea3ee14f2311869e52733c6c2df123fb7871f1d927ee3ff29927445fa173655f7"/>
+        <VersionInfo resourceName="JavaScript-1" version="SHA-512:e3cd02a181e9b8c82caa8cfd1e708502ef577a43eb062bdfdcf9ed6ea9a17b25aca2b05b8d42658839a7feb05895a9e6bfd87526dfae2c43ccc5f01d3c54bdc6"/>
+        <VersionInfo resourceName="JavaScript-2" version="SHA-512:9d4ef7a51fd0c694ce8538ad31a4f3b2362c6719db5c6def8fab207a4660bd3761171c3dfc6536f864d0296cfa2a829f62fd68777ce38b60bea7768a67c9a7d3"/>
+        <VersionInfo resourceName="JavaScript-3" version="SHA-512:bee2de886365328b1e4af2473050963bdad5fb97eecd30adc919bad3a057f912e76eb7b3132d308a4e6377bf930f17327cecea65add19ba9c05a89a60fa67f34"/>
+        <VersionInfo resourceName="JavaScript-4" version="SHA-512:cb12b1cf9ec1dcb64aea8bc914af9893168dde4c800be2fbbccaa911e035fd84b1a7182e30eb83d7171061d160b273e1a5d46a70221d2a1c7fc6f939e79de13e"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:6f73efcb30997113a5fe3c7102ad27ae094b971d2c0c237fc8f8d2136bf717f5adce4103ddf465cb52a34715f68df3e20aa66036aeda9c6312778f8a2113b06f"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://combinedFlow.js" version="SHA-512:4041d0c3f98c75c2ed52c93a765eb35d56099c23086b175230828c0a907c859294b5edb1cb8e700041c8cc29eb9bb62dd1bc12b9cf6f76e28e1bb75bbf4e1959"/>
+        <VersionInfo resourceName="jsc://mockRequest.js" version="SHA-512:014d92cb3b9ec9e34c5bc054bb8abbbe9d665cdfa2ff655961f95d300a46585c0843a97bade468bb4d44d5e912d3d1bee3267274bebd88a5468a013b5bd7249b"/>
+        <VersionInfo resourceName="jsc://print.js" version="SHA-512:23ee33d312d4a44889ca59bde9b015d0f56ab60a48b9e0d8205b62c61c18eabaa433522dd53f81c51bb0257f02818cd47f33c0852df8504b57b3d94019827f1a"/>
+        <VersionInfo resourceName="jsc://request.js" version="SHA-512:93f9d975c3434727223ad5233dad6120fc0fce08bd7f423e4e8c3c3fdb364fc9d8bcb16dc078ecfa0461f3e660f28e13cfd5a29a244232b7d7e0d1459c8ae622"/>
+        <VersionInfo resourceName="jsc://response.js" version="SHA-512:152a0a3c5b6163c52e9903a4e390680a36d9a013e0426fa4b0a2d8d3dbe8af3d0f496f3c3cbd43df7a5c10a616227bf35ca8cf4001165477ab293bd9269f796a"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>

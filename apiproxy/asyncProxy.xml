@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="asyncProxy">
+    <Basepaths>/asyncproxy</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1587498736825</CreatedAt>
+    <CreatedBy>ijoubert@prokarma.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>asyncProxy</DisplayName>
+    <LastModifiedAt>1587512034764</LastModifiedAt>
+    <LastModifiedBy>ijoubert@prokarma.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:c2100f7a0ecb5f752d85ca957b0da4a344a82648ece33502f98af533279f69df94216c0f4b11e0765592fe78330d5feced2f645b8a7bc2061ca9af42fc0debbe</ManifestVersion>
+    <Policies>
+        <Policy>JS-combinedFlow</Policy>
+        <Policy>JavaScript-1</Policy>
+        <Policy>JavaScript-2</Policy>
+        <Policy>JavaScript-3</Policy>
+        <Policy>JavaScript-4</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://combinedFlow.js</Resource>
+        <Resource>jsc://mockRequest.js</Resource>
+        <Resource>jsc://print.js</Resource>
+        <Resource>jsc://request.js</Resource>
+        <Resource>jsc://response.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>
