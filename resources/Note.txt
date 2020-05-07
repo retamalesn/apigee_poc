@@ -1,0 +1,2 @@
+This folder should contain a .zip, .rar, or any other exported file for easy download the proxy configuration
+After adding the .zip file, this txt file can be deleted
